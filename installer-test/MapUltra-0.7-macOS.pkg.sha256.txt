@@ -1,0 +1,8 @@
+file=MapUltra-0.7-macOS.pkg
+version=0.7
+displayVersion=0.7
+packageVersion=0.7.0
+bundleIdentifier=com.yueshi.mapworkbench
+updateManifestUrl=https://raw.githubusercontent.com/smartbeng/MapUltra-Updates/main/mapultra/update.json
+size=34429804
+sha256=09e05c192e3217132e0ecadaaf2037c86de6846fdd11de266419d44c9338b750
