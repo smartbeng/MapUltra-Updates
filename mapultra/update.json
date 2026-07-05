@@ -5,7 +5,7 @@
   "latestVersion": "0.8",
   "minimumSupportedVersion": "0.1.0",
   "forceUpdate": true,
-  "publishedAt": "2026-07-05T09:53:23.382478+00:00",
+  "publishedAt": "2026-07-05T10:39:42.809879+00:00",
   "title": "发现新版本 0.8",
   "summary": "建议更新至最新版本，以获得更稳定的使用体验。",
   "releaseNotesUrl": "release-notes.md?v=0.8",
@@ -13,7 +13,7 @@
     "修复强制更新弹窗绕过问题，更新窗口改为无系统标题栏，强制更新时只能选择升级或关闭程序。",
     "优化关于页版本更新记录，卡片内容自然撑高并支持滚动查看，避免长文本被压缩或遮挡。",
     "补齐性能架构优化说明和大图渲染回归证据，强化 dirty region、局部刷新和高密度地图稳定性。",
-    "完善自动更新链路，固定 /mapultra 四文件契约，MapUltra.exe 为 Windows 安装器，MapUltra.pkg 为 macOS 安装器，二者均做 sha256 校验，升级安装保留本地工程、缓存和用户设置。"
+    "完善自动更新链路，固定 /mapultra 四文件契约，Windows EXE 与 macOS PKG 均做 sha256 校验，升级安装保留本地工程、缓存和用户设置。"
   ],
   "history": [
     {
@@ -23,7 +23,7 @@
         "修复强制更新弹窗绕过问题，更新窗口改为无系统标题栏，强制更新时只能选择升级或关闭程序。",
         "优化关于页版本更新记录，卡片内容自然撑高并支持滚动查看，避免长文本被压缩或遮挡。",
         "补齐性能架构优化说明和大图渲染回归证据，强化 dirty region、局部刷新和高密度地图稳定性。",
-        "完善自动更新链路，固定 /mapultra 四文件契约，MapUltra.exe 为 Windows 安装器，MapUltra.pkg 为 macOS 安装器，二者均做 sha256 校验，升级安装保留本地工程、缓存和用户设置。"
+        "完善自动更新链路，固定 /mapultra 四文件契约，Windows EXE 与 macOS PKG 均做 sha256 校验，升级安装保留本地工程、缓存和用户设置。"
       ]
     }
   ],
@@ -31,7 +31,7 @@
     "windows-x64": {
       "fileName": "MapUltra.exe",
       "url": "MapUltra.exe?v=0.8",
-      "sha256": "2fa77524fbe317a40c87e892a46efe8cfc4b5659e31470c3095a5c296c31faf6",
+      "sha256": "c1a09989134e473a4e36ae2e925f1ef23c5b1923674f4ad7f6674a8fc385bda8",
       "size": 69497344,
       "installerType": "exe"
     },
