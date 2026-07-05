@@ -1,0 +1,6 @@
+file=MapUltra-0.7-Windows-Setup.exe
+version=0.7
+displayVersion=0.7
+packageVersion=0.7.0
+updateManifestUrl=https://raw.githubusercontent.com/smartbeng/MapUltra-Updates/main/mapultra/update.json
+sha256=aa16b97577536ab369936dd3eabb5af532c93c6f8f845abd338621416ecd5e7f
