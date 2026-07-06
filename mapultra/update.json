@@ -5,25 +5,25 @@
   "latestVersion": "0.8",
   "minimumSupportedVersion": "0.1.0",
   "forceUpdate": true,
-  "publishedAt": "2026-07-05T10:39:42.809879+00:00",
+  "publishedAt": "2026-07-06T09:50:00+00:00",
   "title": "发现新版本 0.8",
   "summary": "建议更新至最新版本，以获得更稳定的使用体验。",
   "releaseNotesUrl": "release-notes.md?v=0.8",
   "releaseNotes": [
-    "修复强制更新弹窗绕过问题，更新窗口改为无系统标题栏，强制更新时只能选择升级或关闭程序。",
-    "优化关于页版本更新记录，卡片内容自然撑高并支持滚动查看，避免长文本被压缩或遮挡。",
-    "补齐性能架构优化说明和大图渲染回归证据，强化 dirty region、局部刷新和高密度地图稳定性。",
-    "完善自动更新链路，固定 /mapultra 四文件契约，Windows EXE 与 macOS PKG 均做 sha256 校验，升级安装保留本地工程、缓存和用户设置。"
+    "修复关于页检查更新按钮在 macOS 下不可见的问题，改为稳定的蓝色实心按钮并加入像素级可见性自测。",
+    "修复主页地图总览图在大窗口和高分辨率下仍显示过小的问题，改为按舞台区域自适应铺满。",
+    "统一 macOS 应用程序入口、菜单栏、Windows 标题栏和任务栏使用 MapUltra 品牌图标。",
+    "加强 macOS PKG 安装完成判断：安装后确认 /Applications/MapUltra.app、Info.plist、主程序和 MapUltra.icns 均可见，并注册 LaunchServices 后再显示完成。"
   ],
   "history": [
     {
       "version": "0.8",
-      "publishedAt": "2026-07-05",
+      "publishedAt": "2026-07-06",
       "notes": [
-        "修复强制更新弹窗绕过问题，更新窗口改为无系统标题栏，强制更新时只能选择升级或关闭程序。",
-        "优化关于页版本更新记录，卡片内容自然撑高并支持滚动查看，避免长文本被压缩或遮挡。",
-        "补齐性能架构优化说明和大图渲染回归证据，强化 dirty region、局部刷新和高密度地图稳定性。",
-        "完善自动更新链路，固定 /mapultra 四文件契约，Windows EXE 与 macOS PKG 均做 sha256 校验，升级安装保留本地工程、缓存和用户设置。"
+        "修复关于页检查更新按钮在 macOS 下不可见的问题，改为稳定的蓝色实心按钮并加入像素级可见性自测。",
+        "修复主页地图总览图在大窗口和高分辨率下仍显示过小的问题，改为按舞台区域自适应铺满。",
+        "统一 macOS 应用程序入口、菜单栏、Windows 标题栏和任务栏使用 MapUltra 品牌图标。",
+        "加强 macOS PKG 安装完成判断：安装后确认 /Applications/MapUltra.app、Info.plist、主程序和 MapUltra.icns 均可见，并注册 LaunchServices 后再显示完成。"
       ]
     }
   ],
@@ -37,9 +37,9 @@
     },
     "macos-universal": {
       "fileName": "MapUltra.pkg",
-      "url": "MapUltra.pkg?v=0.8",
-      "sha256": "0173cfe1134703333f6cf2fb982711a392c60d2801f3cb05f1ba3a16f7fa3d78",
-      "size": 34892679,
+      "url": "MapUltra.pkg?v=0.8-20260706-macos-icon-home-update",
+      "sha256": "0538539b091ca857693ee3b80c03d63c0e01eb2ef60314eb1821251184011279",
+      "size": 34893300,
       "installerType": "pkg"
     }
   }
