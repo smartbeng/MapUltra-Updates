@@ -38,8 +38,8 @@
     "macos-universal": {
       "fileName": "MapUltra.pkg",
       "url": "MapUltra.pkg?v=0.8",
-      "sha256": "be56a1ec0d0ebc4b23e9837ecf4c739a2414d176bac65816124ef3b5768845d7",
-      "size": 34595840,
+      "sha256": "d9fe0e5235aa4151ba5c00ff0267799788ae19058dd9f30eed37cc469eeaf425",
+      "size": 34889036,
       "installerType": "pkg"
     }
   }
