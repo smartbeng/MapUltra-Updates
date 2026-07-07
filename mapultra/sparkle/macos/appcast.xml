@@ -4,16 +4,16 @@
         <title>MapUltra</title>
         <item>
             <title>0.8</title>
-            <pubDate>Tue, 07 Jul 2026 19:09:19 +0800</pubDate>
-            <sparkle:version>0.8.0</sparkle:version>
+            <pubDate>Tue, 07 Jul 2026 22:12:04 +0800</pubDate>
+            <sparkle:version>0.8.1</sparkle:version>
             <sparkle:shortVersionString>0.8</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
             <description sparkle:format="markdown"><![CDATA[# MapUltra 0.8
 
-- 切换为标准 macOS DMG + Sparkle 自动更新链路。
+- 修复 macOS Sparkle 更新在 DMG 解压阶段长时间卡住的问题，更新包切换为官方推荐的 zip 归档。
 ]]></description>
-            <enclosure url="https://raw.githubusercontent.com/smartbeng/MapUltra-Updates/main/mapultra/sparkle/macos/MapUltra.dmg" length="41292573" type="application/octet-stream" sparkle:edSignature="KnqhPh/G4vLE7OcNiOqH2adEnx1ITzbhbEbVg/zU2JxDLBl/qVFCfSZPgoj++mSa/j78WXMikf/uP6lLhMtPAQ=="/>
+            <enclosure url="https://github.com/smartbeng/MapUltra-Updates/releases/download/mapultra-macos-0.8.1/MapUltra.zip" length="35867494" type="application/octet-stream" sparkle:edSignature="msTb/iESoQEJrmnlw+yxyJmDRPqYo898xaJkMhZjmEJmpIlKaGoQ+nnPSFi3wt8gXmyYfVqFwKEL5+ozPQ4QDA=="/>
         </item>
     </channel>
 </rss>
